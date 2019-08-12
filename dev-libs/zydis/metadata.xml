@@ -7,6 +7,6 @@
 	</maintainer>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">keystone-engine/keystone</remote-id>
+		<remote-id type="github">zyantific/zydis</remote-id>
 	</upstream>
 </pkgmetadata>
