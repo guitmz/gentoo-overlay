@@ -3,6 +3,8 @@
 
 EAPI=7
 
+inherit cmake-utils
+
 DESCRIPTION="Fast and lightweight x86/x86-64 disassembler library"
 HOMEPAGE="https://zydis.re"
 
@@ -17,14 +19,10 @@ DEPEND="dev-util/cmake"
 S=${WORKDIR}/${P/_rc/-rc}
 
 src_compile() {
-	cd ${S}
-	mkdir build
-	cd build
-	cmake ..
-	make
+	cmake-utils_src_compile
 }
 
 src_install() {
-	default
+	cmake-utils_src_install
 }
 
