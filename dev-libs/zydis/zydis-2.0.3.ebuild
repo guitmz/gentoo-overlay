@@ -12,10 +12,11 @@ KEYWORDS="~amd64 ~x86"
 LICENSE="MIT"
 SLOT="0"
 
+DEPEND="dev-util/cmake"
+
 S=${WORKDIR}/${P/_rc/-rc}
 
 src_compile() {
-	default
 	cd ${S}
 	mkdir build
 	cd build
@@ -25,6 +26,5 @@ src_compile() {
 
 src_install() {
 	default
-	make install
 }
 
