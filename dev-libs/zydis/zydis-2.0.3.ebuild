@@ -10,6 +10,7 @@ SRC_URI="https://github.com/zyantific/zydis/archive/v${PV/_rc/-rc}.tar.gz -> ${P
 KEYWORDS="~amd64 ~x86"
 
 LICENSE="MIT"
+SLOT="0"
 
 S=${WORKDIR}/${P/_rc/-rc}
 
