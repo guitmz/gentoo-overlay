@@ -5,7 +5,6 @@
 		<email>thomazi@linux.com</email>
 		<name>Guilherme Thomazi Bonicontro</name>
 	</maintainer>
-	</maintainer>
 	<upstream>
 		<remote-id type="github">aquynh/capstone</remote-id>
 	</upstream>
