@@ -29,9 +29,9 @@ RDEPEND="${DEPEND}
 		dev-java/openjdk-jdk-bin
 	)
 	python? ( ${PYTHON_DEPS} )
-	server? ( virtual/pam )
 	!dev-util/ghidra
 "
+	#server? ( virtual/pam )
 
 QA_PRESTRIPPED="/opt/ghidra/docs/GhidraClass/ExerciseFiles/Advanced/sharedReturn"
 
