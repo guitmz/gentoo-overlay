@@ -25,8 +25,8 @@ RESTRICT="mirror strip"
 DEPEND="app-shells/bash"
 RDEPEND="${DEPEND}
 	|| (
-		virtual/jdk:11
-		virtual/jre:11
+		dev-java/openjdk-jre-bin
+		dev-java/openjdk-jdk-bin
 	)
 	python? ( ${PYTHON_DEPS} )
 	server? ( virtual/pam )
