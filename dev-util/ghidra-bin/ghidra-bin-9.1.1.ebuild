@@ -12,7 +12,7 @@ MY_P="${MY_PN}-${PV}"
 
 DESCRIPTION="An SRE framework developed by the NSA Research Directorate"
 HOMEPAGE="https://ghidra-sre.org"
-PUBLIC_DATE="20190516"
+PUBLIC_DATE="20191218"
 SRC_URI="https://ghidra-sre.org/${MY_P/-/_}_PUBLIC_${PUBLIC_DATE}.zip"
 
 LICENSE="Apache-2.0"
