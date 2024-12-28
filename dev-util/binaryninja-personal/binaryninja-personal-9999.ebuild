@@ -8,7 +8,7 @@ inherit wrapper
 DESCRIPTION="Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers."
 HOMEPAGE="https://binary.ninja"
 
-SRC_URI="binaryninja_personal_linux.zip"
+SRC_URI="https://cdn.binary.ninja/installers/binaryninja_free_linux.zip"
 
 LICENSE="|| ( BinaryNinja_Personal )"
 SLOT="0"
