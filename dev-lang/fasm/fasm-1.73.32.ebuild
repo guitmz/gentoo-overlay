@@ -1,7 +1,7 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 DESCRIPTION="Flat Assembler"
 HOMEPAGE="http://flatassembler.net/"
@@ -12,13 +12,10 @@ S="${WORKDIR}/fasm"
 LICENSE="fasm"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
-IUSE=""
 
 
 src_install() {
 	insinto opt/fasm
 	doins -r *
-	exeinto opt/fasm
-	doexe fasm
-	dobin fasm
+	dobin fasm.x64 fasm
 }
