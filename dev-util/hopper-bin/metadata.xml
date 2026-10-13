@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>thomazi@linux.com</email>
+		<name>Guilherme Thomazi Bonicontro</name>
+	</maintainer>
+	<longdescription>
+		Hopper is a proprietary reverse engineering tool for disassembling and
+		decompiling Intel and ARM executables. This package provides the official
+		Linux demo, which limits sessions to 30 minutes and disables saving,
+		exporting and debugging. A license is available separately from upstream.
+	</longdescription>
+</pkgmetadata>
